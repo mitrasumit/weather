@@ -55,10 +55,33 @@ body {
 
 .degree-section span {
   margin: 10px;
-  font-size: 30px;
+  font-size: 32px;
 }
 
 .degree-section h2 {
   font-size: 40px;
+}
+
+.actual-data {
+  display: none;
+}
+
+.show-message {
+  visibility: visible;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .show-message {
+    margin: 10px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

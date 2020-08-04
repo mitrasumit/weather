@@ -32,10 +32,28 @@ body
     span 
     {
         margin: 10px;
-        font-size: 30px;
+        font-size: 32px;
     }
     h2 
     {
         font-size: 40px;
+    }
+}
+
+.actual-data
+{
+    display: none;
+}
+.show-message
+{
+    visibility: visible;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+    @media (max-width:768px) 
+    {
+        margin:10px;
     }
 }
